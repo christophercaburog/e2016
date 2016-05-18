@@ -1,0 +1,53 @@
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+}
+
+
+td.themeMenuItem{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#474B8E;
+	font-weight:bold;
+	padding-left:5px;
+}
+
+td.themeMainMenu{
+background-color:#0183C1;
+color:#FFFFFF;
+font-weight:bold;
+font-size:14px;
+}
+
+a.themeMainMenuLink{
+color:#FFFFFF;
+font-weight:bold;
+font-size:14px;
+text-decoration:none;
+}
+
+a.themeMainMenuLink:hover{
+color:#FFF5C0;
+}
+
+td.themeFooter{
+	background-color:#f0f0f0;
+}
+
+td.themeFooterLink{
+	font-size:10px;
+}
+
+td.themeNews1Date{
+color:#666666;
+font-size:11px;
+font-weight:bold;
+padding-left:5px;
+}
+
+td.themeNews1{
+color:#666666;
+font-size:11px;
+padding-left:5px;
+}

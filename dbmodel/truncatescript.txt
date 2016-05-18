@@ -1,0 +1,8 @@
+TRUNCATE TABLE comelec_candidate_votes;
+UPDATE `comelec_precincts` SET user_id = 0,`precincts_status` = 10,`precincts_encoded_numberofvoters` = NULL, `precincts_encoded_actualvotedvoters` = NULL,
+`precincts_encoded_totalvalidballot` =NULL,
+`precincts_encoded_withdrawnvalidballot` = NULL,
+`precincts_encoded_excess_ballot` = NULL,
+`precincts_encoded_rejected_ballot` = NULL,
+`precincts_encoded_remarks` = NULL,
+`precincts_encoded_pcosid` = NULL;
